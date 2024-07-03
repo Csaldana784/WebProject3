@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: #333;
+}
+
+.App {
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  height: 100vh;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+form {
+  margin: 1em 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em 0;
+}
+
+footer a {
+  color: #ff7e5f;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.formula1-image {
+  max-width: 100%;
+  height: auto;
+  margin: 1em auto;
+}
+
+@media (max-width: 600px) {
+  .App {
+    grid-template-rows: auto auto auto 1fr auto;
+  }
+}
